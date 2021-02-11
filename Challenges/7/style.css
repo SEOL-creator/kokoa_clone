@@ -1,0 +1,249 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap");
+
+body {
+    font-family: "Heebo", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.title__background {
+    position: fixed;
+    top: -30px;
+    width: 100%;
+    height: 160px;
+    background-color: #ffce33;
+}
+
+.stat-bar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: none;
+}
+
+.stat-bar__nav {
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.stat-bar__search {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 20px 0px 20px;
+}
+
+.stat-bar__input {
+    background-color: #ffffff;
+    height: 60px;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input__search {
+    height: 50px;
+    width: 90%;
+    border: none;
+    font-size: 18px;
+}
+
+.input__search::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.search-icon {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.today {
+    margin: 200px 20px 0px 20px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.today__content {
+    margin-top: 35px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.today__content__img {
+    width: 150px;
+    height: 220px;
+    background-color: rosybrown;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.spec {
+    height: 220px;
+    width: 100%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.rating > * {
+    margin-right: 2px;
+    color: #ffce33;
+}
+
+.today__content__title {
+    font-size: 26px;
+    font-weight: 600;
+}
+.today__content__description {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.today__content__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.today__content__links > * {
+    background-color: #f7f7f7;
+    padding: 8px 15px;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.today__content__actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.button__bookmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #ffce33;
+    border-radius: 100%;
+}
+.button__booking {
+    width: 150px;
+    height: 50px;
+    background-color: #0d0d0d;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__booking p {
+    color: rgba(220, 220, 220, 1);
+}
+
+.top {
+    margin: 40px 20px 0px 20px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.item-list {
+    margin-top: 20px;
+    display: flex;
+}
+
+.items__img {
+    width: 110px;
+    height: 150px;
+    background-color: rosybrown;
+    border-radius: 10px;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.pop {
+    margin: 40px 20px 0px 20px;
+}
+
+.pop__contents {
+    display: flex;
+    margin-top: 20px;
+}
+
+.pop__contents__img {
+    width: 140px;
+    height: 160px;
+    background-color: rosybrown;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.pop__content__title {
+    font-size: 26px;
+    font-weight: 600;
+}
+.pop__content__description {
+    margin-top: 20px;
+    font-size: 16px;
+    height: 100%;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+}
+
+.pop__contents__article {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+}
